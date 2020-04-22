@@ -18,21 +18,34 @@
 
 </div>
 
-<!-- Popular movie -->
-<h5 style="text-align: center ;padding:20px"> Popular Movies</h5>
-<ul>
-    {{ macro.displayMovieList(popular)}}
-</ul>
-<!-- Upcoming movie  -->
-<h5 style="text-align: center ;padding:20px"> Upcoming Movies </h5>
-<ul>
-    {{ macro.displayMovieList(upcoming)}}
-</ul>
-<!-- Now showing movie -->
-<h5 style="text-align: center;padding:20px">Now Showing</h5>
-<ul>
-    {{ macro.displayMovieList(now_showing)}}
-</ul>
+<div class="container">
+
+    <!-- Popular movie -->
+    <div class="row">
+        <h3 style="text-align: center;"> Popular Movies</h3>
+        <ul>
+            {{ macro.displayMovieList(popular)}}
+        </ul>
+    </div>
+    <!-- Upcoming movie  -->
+    <div class="row">
+
+        <h3 style="text-align: center;"> Upcoming Movies </h3>
+        <ul>
+            {{ macro.displayMovieList(upcoming)}}
+        </ul>
+    </div>
+
+    <!-- Now showing movie -->
+    <div class="row">
+
+        <h3 style="text-align: center;">Now Showing</h3>
+        <ul>
+            {{ macro.displayMovieList(now_showing)}}
+        </ul>
+    </div>
+
+</div>
 
 
 {% endblock%}
