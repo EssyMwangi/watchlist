@@ -29,12 +29,12 @@ To get the code..
   ```
 2. Move to the folder and install requirements
   ```bash
-  cd News_Bulletins
+  cd watchlist
   pip install -r requirements.txt
   ```
 3. Exporting Configurations
   ```bash
-  export API_KEY='{Enter your News Api Key}'
+  export API_KEY='{Enter your Movie Api Key}'
   ```
 4. Running the application
   ```bash
